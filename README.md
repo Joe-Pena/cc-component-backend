@@ -2,9 +2,15 @@
 
 Super simple Django backend for the cc component. The db was seeded by using the example JSON file as a fixture.
 
----
+## Live API
 
-## Getting Started
+You can find the live api at https://joepena.pythonanywhere.com/api/recommendations/
+
+Query Parameter can be passed in in order to filter the card recommendations.
+
+eg. https://joepena.pythonanywhere.com/api/recommendations?score=good&usage=travel
+
+## Getting Started Locally
 
 1. Pull the repo
    > `TODO`
