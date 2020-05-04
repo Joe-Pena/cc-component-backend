@@ -1,6 +1,5 @@
 from .models import Recommendation
 from rest_framework import serializers
-from jsonfield import JSONField
 
 
 class RecSerializer(serializers.ModelSerializer):
