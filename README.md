@@ -13,14 +13,16 @@ eg. https://joepena.pythonanywhere.com/api/recommendations?score=good&usage=trav
 ## Getting Started Locally
 
 1. Pull the repo
-   > `TODO`
-2. Create a virtual env at the root folder.
+   > `git clone https://github.com/Joe-Pena/cc-component-backend.git`
+2. Create a virtual env at the root folder
    > `python -m venv env`
-3. Install the required packages
+3. Login to the virtual env
+   > `source env/bin/activate`
+4. **While logged into the venv shell** Install the required packages
    > `pip install -r requirements.txt`
-4. cd into the backend project
+5. cd into the backend project
    > `cd backend/`
-5. Make sure to run a migration
+6. Make sure to run a migration
    > `python manage.py migrate`
-6. Start the API!
+7. Start the API!
    > `python manage.py runserver`
